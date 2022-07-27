@@ -19,8 +19,7 @@
 
 <body id="bg">
 <!-- eruda script-->
-<script src="//cdn.jsdelivr.net/npm/eruda"></script>
-<script>eruda.init();</script>
+<script>(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();</script>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
