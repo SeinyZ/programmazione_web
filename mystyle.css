@@ -7,9 +7,9 @@ body{
     font-size: medium;
 }
 #icon_weather{
-    background-image: url("cloudy.png");
+    background-image: url("cloudy.png") red;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
+    width: 100px;
+    height: 100px; 
 }
