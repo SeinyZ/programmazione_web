@@ -1,3 +1,4 @@
+.{}
 body{
     background-image: url("sfondo.jpg");
     background-repeat: no-repeat;
@@ -6,7 +7,7 @@ body{
     
 }
 #weather_icon{
-    height: 100%;
+    height: auto;
 }
 html{
     font-family: 'Lato', sans-serif;
