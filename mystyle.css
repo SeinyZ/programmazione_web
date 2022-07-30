@@ -7,7 +7,7 @@ body{
     
 }
 #weather_icon{
-    height: auto;
+    height: 100px;
 }
 html{
     font-family: 'Lato', sans-serif;
