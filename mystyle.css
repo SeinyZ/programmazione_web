@@ -8,5 +8,5 @@ body{
     z-index: 1;
 }
 #weather_icon{
-    height: fit-content;
+    height: 100%;
 }
