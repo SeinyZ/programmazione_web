@@ -17,18 +17,21 @@ html {
 
 }
 
-#temp_ph {
-    font-size: x-large;
-
-    display: inline-block;
+#weather_temp {
+    font-size: 5em;
+    
+    color:aliceblue;
 }
-
+p{
+    font-size: 1.5em;
+    color:aliceblue;
+}
 #divider {
     transform: rotate(90deg);
 }
 
 .information_set {
-    border: 1px solid black;
+    border: 1px  black;
     overflow: auto;
     height: 100%;
     width: 100%;
@@ -43,9 +46,10 @@ html {
 }
 .carusel_row{
     height: 30pt;
-    border: 1px solid black;
+    border: 1px  ;
+    overflow: auto;
 }
 .carusel{
     height:100%;
-    border: 1px solid black;
+    border: 1px  ;
 }
