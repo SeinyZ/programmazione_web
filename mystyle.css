@@ -1,4 +1,4 @@
-.{}
+
 body{
     background-image: url("sfondo.jpg");
     background-repeat: no-repeat;
@@ -7,10 +7,21 @@ body{
     
 }
 #weather_icon{
-    height: 100px;
+    height: 200px;
 }
 html{
     font-family: 'Lato', sans-serif;
     font-size: medium;
     
+}
+#temp_ph{
+    font-size: x-large;
+    
+    display: inline-block;
+}
+#divider{
+    transform: rotate(90deg);
+}
+.information_set{
+    border: 1px solid black;
 }
